@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* header.css
+**************************************************************************************/
+
+/* Title
+=============================================================================*/
+
+#body-in .container-wrapper .header-area .h1-title-wrapper {
+	background-color:#16a085;
+}
+#body-in .container-wrapper .header-area .h1-title-area h1 span {
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+/* Step
+=============================================================================*/
+
+#body-in .container-wrapper .header-area .step-area ul li span.txt {
+	font-weight:bold;
+}
+
+/*step01*/
+#body-in .container-wrapper .header-area .step-area ul.step01-now li.step01 {
+	background:url("../../image/step-ar001.gif") #16a085 no-repeat right 0;
+    background-size: 25px 100%;
+	color:#FFFFFF;
+}
+#body-in .container-wrapper .header-area .step-area ul.step01-now li.step02 {
+	background:url("../../image/step-ar003.gif") #f1f1f1 no-repeat right 0;
+    background-size: 25px 100%;
+}
+#body-in .container-wrapper .header-area .step-area ul.step01-now li.step03 {
+	background:#f1f1f1;
+}
+
+/*step02*/
+#body-in .container-wrapper .header-area .step-area ul.step02-now li.step01 {
+	background:url("../../image/step-ar002.gif") #f1f1f1 no-repeat right 0;
+    background-size: 25px 100%;
+}
+#body-in .container-wrapper .header-area .step-area ul.step02-now li.step02 {
+	background:url("../../image/step-ar001.gif") #16a085 no-repeat right 0;
+    background-size: 25px 100%;
+	color:#FFFFFF;
+}
+#body-in .container-wrapper .header-area .step-area ul.step02-now li.step03 {
+	background:#f1f1f1;
+}
+
+/*step03*/
+#body-in .container-wrapper .header-area .step-area ul.step03-now li.step01 {
+	background:url("../../image/step-ar003.gif") #f1f1f1 no-repeat right 0;
+    background-size: 25px 100%;
+}
+#body-in .container-wrapper .header-area .step-area ul.step03-now li.step02 {
+	background:url("../../image/step-ar002.gif") #f1f1f1 no-repeat right 0;
+    background-size: 25px 100%;
+}
+#body-in .container-wrapper .header-area .step-area ul.step03-now li.step03 {
+	background:#16a085;
+	color:#FFFFFF;
+}
+
+@media screen and (max-width: 679px){
+/*step01*/
+#body-in .container-wrapper .header-area .step-area ul.step01-now li.step01 {
+	background:url("../../image/step-ar004.gif") #16a085 no-repeat center bottom;
+	background-size:1000px auto;
+}
+#body-in .container-wrapper .header-area .step-area ul.step01-now li.step02 {
+	background:url("../../image/step-ar004.gif") #f1f1f1 no-repeat center bottom;
+	background-size:1000px auto;
+}
+
+/*step02*/
+#body-in .container-wrapper .header-area .step-area ul.step02-now li.step01 {
+	background:url("../../image/step-ar004.gif") #f1f1f1 no-repeat center bottom;
+	background-size:1000px auto;
+}
+#body-in .container-wrapper .header-area .step-area ul.step02-now li.step02 {
+	background:url("../../image/step-ar004.gif") #16a085 no-repeat center bottom;
+	background-size:1000px auto;
+}
+
+/*step03*/
+#body-in .container-wrapper .header-area .step-area ul.step03-now li.step01 {
+	background:url("../../image/step-ar004.gif") #f1f1f1 no-repeat center bottom;
+	background-size:1000px auto;
+}
+#body-in .container-wrapper .header-area .step-area ul.step03-now li.step02 {
+	background:url("../../image/step-ar004.gif") #f1f1f1 no-repeat center bottom;
+	background-size:1000px auto;
+}
+}

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* footer.css
+**************************************************************************************/
+
+/* Sig
+=============================================================================*/
+#body-in .container-wrapper .footer-area .sig-wrapper {
+	background-color:#ececec;
+	padding:30px 10px;
+}
+#body-in .container-wrapper .footer-area .sig-area .name {
+	font-weight:bold;
+	margin-bottom:5px;
+	font-size:120%;
+}
+
+@media screen and (max-width: 679px){
+#body-in .container-wrapper .footer-area .sig-wrapper {
+	padding:20px 10px;
+}
+}
+
+
+/* Copy
+=============================================================================*/
+
+#body-in .container-wrapper .footer-area .copy-wrapper {
+	background-color:#16a085;
+	padding:0 10px;
+}
+#body-in .container-wrapper .footer-area .copy-area p {
+	color:#FFFFFF;
+	font-size:12px;
+	text-align:center;
+	padding:10px 0;
+}
+@media screen and (max-width: 679px){
+#body-in .container-wrapper .footer-area .copy-area p {
+	font-size:10px;
+}
+}

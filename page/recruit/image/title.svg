@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="686" height="133" viewBox="0 0 686 133">
+  <defs>
+    <filter id="IT_WEB_エンジニア_営業_総務_経理など" x="7" y="0" width="672" height="58" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="WHDグループスタッフ募集" x="0" y="27" width="686" height="106" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#003380" flood-opacity="0.361"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_88" data-name="Group 88" transform="translate(-768 -131)">
+    <g id="Group_87" data-name="Group 87">
+      <g id="Group_86" data-name="Group 86">
+        <g id="Group_85" data-name="Group 85">
+          <g transform="matrix(1, 0, 0, 1, 768, 131)" filter="url(#IT_WEB_エンジニア_営業_総務_経理など)">
+            <text id="IT_WEB_エンジニア_営業_総務_経理など-2" data-name="IT・WEB・エンジニア・営業・総務・経理など" transform="translate(19 9)" fill="#ff4a4a" stroke="#fff" stroke-width="3" font-size="25" font-family="MidashiGoPro-MB31, A-OTF Midashi Go MB31 Pro"><tspan x="57.575" y="29">IT・WEB・エンジニア・営業・総務・経理など</tspan></text>
+          </g>
+          <text id="IT_WEB_エンジニア_営業_総務_経理など-3" data-name="IT・WEB・エンジニア・営業・総務・経理など" transform="translate(787 140)" fill="#ff4a4a" font-size="25" font-family="MidashiGoPro-MB31, A-OTF Midashi Go MB31 Pro"><tspan x="57.575" y="29">IT・WEB・エンジニア・営業・総務・経理など</tspan></text>
+          <g transform="matrix(1, 0, 0, 1, 768, 131)" filter="url(#WHDグループスタッフ募集)">
+            <text id="WHDグループスタッフ募集-2" data-name="WHDグループスタッフ募集" transform="translate(19 43)" fill="#ff4a4a" stroke="#fff" stroke-width="10" font-size="50" font-family="MidashiGoPro-MB31, A-OTF Midashi Go MB31 Pro"><tspan x="11.05" y="59">WHDグループスタッフ募集</tspan></text>
+          </g>
+          <text id="WHDグループスタッフ募集-3" data-name="WHDグループスタッフ募集" transform="translate(787 174)" fill="#ff4a4a" stroke="#641a1a" stroke-width="5" font-size="50" font-family="MidashiGoPro-MB31, A-OTF Midashi Go MB31 Pro"><tspan x="11.05" y="59">WHDグループスタッフ募集</tspan></text>
+          <text id="WHDグループスタッフ募集-4" data-name="WHDグループスタッフ募集" transform="translate(787 174)" fill="#ff4a4a" font-size="50" font-family="MidashiGoPro-MB31, A-OTF Midashi Go MB31 Pro"><tspan x="11.05" y="59">WHDグループスタッフ募集</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

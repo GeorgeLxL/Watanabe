@@ -1,0 +1,903 @@
+html {
+  font-family: A-OTF Midashi Go MB31 Pro;
+  color: #1a202e;
+}
+body {
+  background-color: #FBF9F9;
+}
+header {
+  position: relative;  
+}
+header img {
+  width: 100%;
+}
+.recruit {
+  position: absolute;
+  left: 5%;
+  text-align: center;
+  top: 30%;
+  font-family: SoukouMincho;
+  font-size: 30px;
+}
+.top-img-res img {
+  width: 100%;
+  display: none;
+}
+.toptitlesvg {
+  display: none;
+}
+.top-title {
+  position: absolute;
+  width: 45%;
+  height: 35%;
+  top: 26%;
+  left: 27.5%;
+}
+.title-bg {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.55);
+}
+.title {
+  width: 100%;
+  z-index: 100;
+}
+.header-btn {
+  position: absolute;
+  width: 33.6%;
+  height: 75px;
+  top: 68.3%;
+  left: 33.2%;
+  background-color: #1a202e;
+  border-radius: 38px;
+  border: #1a202e 3px solid;
+  text-align: center;
+  display: flex;
+  color: white;
+  cursor: pointer;
+}
+.header-btn:hover {
+  color: #1a202e;
+  background-color: white;
+  border: #1a202e 3px solid;
+  color: #1a202e;
+}
+.header-btn div {
+  font-size: 25px;
+  line-height: 25px;
+  font-family: A-OTF Midashi Go MB31 Pro;
+  margin: auto;
+  /*padding-bottom: 5px;*/
+}
+section {
+  position: relative;
+}
+.b-banner {
+  background-color: #1a202e;
+  color: white;
+  font-family: BIZ UDMincho;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px 0;
+  width: 100%;
+  /*height: 64px;*/
+}
+.section1 {
+  background: url(./image/03.png);
+  width: 100%;
+  height: 55.555555555556vh;
+  /* min-height: 600px; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.venture {
+  border-left: 6.5px #1a202e solid;
+  border-top: 6.5px #1a202e solid;
+  border-bottom: 6.5px #1a202e solid;
+  position: absolute;
+  width: 46%;
+  right: 0px;
+  bottom: 25%;
+}
+.title1-bg {
+  background-color: white;
+  width: 100%;
+}
+.title1-bg .title1 {
+  width: 100%;
+  padding-left: 15px;
+}
+.title1 {
+  font-size: 40px;
+  font-family: A-OTF Midashi Go MB31 Pro;
+  color: #1a202e;
+  font-weight: bold;
+  font-family: A-OTF Midashi Go MB31 Pro;
+}
+.txt {
+  background-color: rgba(26,32,46,0.49);
+  text-align: left;
+}
+.txt div {
+  color: white;
+  font-size: 20px;
+  font-family: BIZ UDMincho;
+  padding: 15px;
+}
+.grey-bg {
+  background-color: #FBF9F9;
+  width: 100%;
+  z-index: 5;
+}
+.grey1 {
+  height: 335px;
+  position: relative;
+}
+.grey2 {
+  height: 180px;
+  position: relative;
+}
+.grey3 {
+  height: 130px;
+  position: relative;
+}
+.grey4 {
+  height: 130px;
+  position: relative;
+}
+.group {
+  text-align: center;
+  text-shadow: rgb(0,0,0,0.16) 0 3px 6px;
+  padding-top: 20px;
+}
+.box-group {
+  display: flex;
+  margin: auto;
+  width: 800px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.grey-box {
+  position: relative;
+  background-color: #CCCCD6;
+  border: 1px #1a202e solid;
+  width: 10vw;
+  height: 6.25vw;
+}
+.w-box {
+  position: relative;
+  background-color: white;
+  border: #CCCCD6 5px solid;
+  outline: #1a202e 2px solid;
+  width: 9.5vw;
+  height: 6vw;
+  min-height: 100px;
+  min-width: 150px;
+  margin: 6px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  font-family: A-OTF Midashi Go MB31 Pro;
+}
+.title30 {
+  background-color: #1a202e;
+  width: 45px;
+  font-size: 30px;
+  margin: auto;
+  height: 35px;
+  line-height: 32px;
+  color: white;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.title15 {
+  font-size: 15px;
+  line-height: 20px;
+}
+.pt-5 {
+  padding-top: 2rem!important;
+}
+.title2 {
+  font-size: 45px;
+  color: #FF4A4A;
+}
+.title3 {
+  font-size: 25px;
+  font-family: A-OTF Midashi Go MB31 Pro;
+}
+.cross-bg {
+  width: 100%;
+  z-index: 5;
+}
+.w-banner {
+  background-color: white;
+  position: absolute;
+  height: 7vw;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subtitle1 {
+  width: 77%;
+}
+.subtitle2 {
+  display: none;
+  width: 95%;
+}
+.mask1 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+.y-bg {
+  background-color: #EECE67;
+  height: 200px;
+  max-height: 200px;
+  /*height: 10.5vw;*/
+  position: relative;
+}
+.mask2 {
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+.grey2 .group {
+  color: #1a202e;
+  font-family: A-OTF Midashi Go MB31 Pro;
+  font-size: 18px;
+}
+.title60 {
+  position: absolute;
+  bottom: 0px;
+  font-size: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-family: Chirumiru Papercut Font;
+}
+.grey2 .title60 {
+    left: 51%;
+}
+.title20 {
+  position: absolute;
+  width: 42%;
+  font-size: 1.05vw;
+  font-family: Source Han Sans JP;
+  top: 20px;
+  z-index: 20;
+}
+.y-bg .title20 {
+    left: 53%;
+}
+.red-title {
+  color: #FF4A4A;
+}
+.number {
+  position: absolute;
+  bottom: -25px;
+  z-index: 15;
+}
+.title272 {
+  font-size: 272px;
+  font-family: Tahoma;
+  font-weight: bold;
+  opacity: 0.25;
+  line-height: 272px;
+  color: white;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+.dark-bg {
+  background-color: #B4ABAC;
+  height: 200px;
+  max-height: 200px;
+  /*height: 10.5vw;*/
+  position: relative;
+}
+.grey3 .title60 {
+  left: 10%;
+}
+.dark-bg .title20 {
+  left: 12.5%;
+  top: 2em;
+  line-height: 1.5em;
+}
+.dx2 {
+  display: none;
+}
+.mask3 {
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+.green-bg {
+  background-color: #18B6B9;
+  height: 200px;
+  max-height: 200px;
+  /*height: 10.5vw;*/
+  position: relative;
+}
+.grey4 .title60 {
+  left: 45%;
+}
+.green-bg .title20 {
+  left: 45%;
+  width: 42%;
+  top: 2.5em;
+  line-height: 1.5em;
+}
+.mask4 {
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+.bottom {
+  width: 100%;
+}
+.bottom-mask {
+  background-color: #1a202e;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.heart {
+  width: 3%;
+  position: absolute;
+  bottom: 150px;
+  left: 50%;
+  bottom: 25%;
+  transform: translateX(-50%);
+}
+.bottom-title {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-family: Chirumiru Papercut Font;
+  font-size: 60px;
+  color: white;
+  text-align: : center;
+  left: 0%;
+  bottom: 7%;
+  text-shadow: 0 3px 6px #1a202e33;
+}
+.title14 {
+  font-family: A-OTF Shin Go Pro DB;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+.four {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.four img {
+  width: 100px;
+  margin: 60px 20px;
+  margin-bottom: 30px;
+}
+.mask2-res, .mask3-res, .mask4-res {
+  display: none;
+  position: relative;
+}
+/*!!!!!!!!!!!!!!!!!!!!!     footer    !!!!!!!!!!!!!!!!!!!!!!!!*/
+a:hover {
+  cursor: pointer;
+}
+.footer {
+  /* min-width: 960px; */
+  width: 100%;
+  color: #a1a1a1;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.footer a {
+  color: white;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+a.footer-link {
+  color: #a1a1a1;
+}
+.footer-content {
+background-color: #043646;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.footer-content01 {
+margin: auto;
+width: 80%;
+border-bottom: 1px solid white;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 14px;
+color: white;
+}
+.footer-text {
+  font-size: 12px;
+  color: #a1a1a1;
+}
+.footer-content02 {
+margin: auto;
+width: 80%;
+padding-top: 20px;
+display: flex;
+}
+.copyright {
+background-color: #1a202e;
+text-align: center;
+padding: 40px;
+}
+.red-triangle::before {
+content: "\25B8";
+color: red;
+}
+.red-triangle {
+  color: white;
+  font-size: 14px;
+}
+.footer-detail {
+width: 20%;
+padding-right: 10px;
+}
+.white-triangle {
+/* font-weight: bold; */
+font-size: 14px;
+padding: 10px 0;
+color: white!important;
+}
+.white-triangle::before {
+content: "\25B8";
+color: white!important;
+}
+.padding01 {
+  padding-right: 3rem!important;
+}
+.padding02 {
+  padding-right: 1rem!important;
+}
+.margin01 {
+  margin-bottom: 1.5rem!important;
+}
+@media (max-width: 1400px) {
+  .footer {
+    white-space: normal;
+  }
+}
+@media (max-width: 900px) {
+  .footer-content01 {
+    width: 90%;
+  }
+  .footer-content02 {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .footer-content01 {
+    width: 90%;
+  }
+  .footer-content02 {
+    width: 90%;
+  }
+}
+@media (max-width: 550px) {
+  .footer-content01 {
+    width: 90%;
+  }
+  .footer-content02 {
+    width: 90%;
+    display: block;
+  }
+  .footer-detail {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+  }
+  .copyright {
+    padding: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .footer-content01 {
+    width: 90%;
+  }
+  .footer-content02 {
+    width: 90%;
+    display: block;
+    padding-top: 0px;
+  }
+  .footer-detail {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+  }
+  .copyright {
+    padding: 30px;
+  }
+  .padding01 {
+    padding-right: 5vw!important;
+  }
+  .padding02 {
+    padding-right: 2.5vw!important;
+  }
+  .margin01 {
+    margin-bottom: 3vw!important;
+  }
+}
+
+
+/* ===============    responsive    ================= */
+@media (min-width: 1600px) {
+  .pt-5 {
+    padding-top: 2rem!important;
+  }
+}
+@media (max-width: 1600px) {
+  .title60 {
+    font-size: 3.75vw;
+  }
+  .bottom-title {
+    font-size: 3.75vw;
+  }
+  .header-btn {
+    height: 57px;
+  }
+}
+@media (min-width: 1366px) and (max-width: 1602px) {
+  .title15 {
+    line-height: 18px;
+  }
+}
+@media (max-width: 1366px) {
+  .header-btn {
+    width: 50%;
+    left: 25%;
+    height: 60px;
+  }
+  .title1 {
+    line-height: 1.2em;
+    width: 80%;
+    margin: auto;
+  }
+  .title1-bg .title1 {
+    width: 100%;
+    padding-left: 15px;
+  }
+  .box-group {
+    width: 80%;
+  }
+}
+@media (max-width: 1200px) {
+  .mask2-res, .mask3-res, .mask4-res {
+    display: block;
+  }
+  .mask2-res img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+  .y-bg, .green-bg, .dark-bg {
+    height: 200px;
+  }
+  .y-bg .title20 {
+    font-size: 18px;
+    width: 90%;
+    left: 5%;
+  }
+  .mask2 {
+    display: none;
+  }
+  .grey2 .title60 {
+    text-align: center;
+    width: 80%;
+    left: 10%;
+  }
+  .mask3-res img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+  .mask3 {
+    display: none;
+  }
+  .grey3 .title60 {
+    text-align: center;
+    width: 80%;
+    left: 10%;
+  }
+  .dark-bg .title20 {
+    font-size: 18px;
+    width: 90%;
+    left: 5%;
+  }
+  .mask4-res img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+  .mask4 {
+    display: none;
+  }
+  .grey4 .title60 {
+    text-align: center;
+    width: 80%;
+    left: 10%;
+  }
+  .green-bg .title20 {
+    font-size: 18px;
+    width: 90%;
+    left: 5%;
+  }
+  .mask2-res-bg {
+
+  }
+}
+@media (max-width: 1000px) {
+  .venture {
+    width: 90%;
+    right: 5%;
+    bottom: 15%;
+    border: 6.5px #1a202e solid;
+  }
+}
+@media (max-width: 900px) {
+  .header-btn {
+    width: 50%;
+    left: 25%;
+  }
+  .top-title {
+    width: 80%;
+    left: 10%;
+  }
+  .top-img {
+    /*flex-direction: column;*/
+  }
+  header img {
+    /*width: 100%;*/
+  }
+  .top-img img {
+    display: none;
+  }
+  .top-img-res img {
+    display: block;
+  }   
+  .title1 {
+    font-size: 35px;
+  }
+  .title2 {
+    font-size: 40px;
+    color: #FF4A4A;
+  }
+  .b-banner {
+    font-size: 16px;
+  }
+  .title60 {
+    font-size: 33.75px;
+  }
+}
+@media (max-width: 770px) {
+  .box-group {
+    flex-direction: column;
+  }
+  .header-btn {
+    height: 45px;
+  }
+  .header-btn div {
+    font-size: 15px;
+  }
+  .w-banner {
+    height: 60px;
+  }
+  .grey1 {
+    height: unset;
+    margin-bottom: unset;
+  }
+  .box-group {
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  .b-banner {
+    padding: 5px 0;
+    height: unset;
+  }
+}
+@media (max-width: 700px) and (min-width: 512px) {
+  .txt div {
+    font-size: 15px;
+  }
+  .venture {
+    width: 80%;
+    right: 10%;
+    bottom: 5px;
+  }
+  .four img {
+    width: 50px;
+    margin: 30px 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .dx1 {
+    display: none;
+  }
+  .dx2 {
+    display: block;
+  }
+}
+@media (max-width: 510px) {
+  .title {
+    display: none;
+  }
+  .title60 {
+    bottom: -15px;
+  }
+  .subtitle1 {
+    display: none;
+  }
+  .subtitle2 {
+    display: block;
+  }
+  .bottom-title {
+    text-align: center;
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .grey2 .title60 {
+    text-align: center;
+    width: 100%;
+    left: 0;
+    font-size: 32px;
+  }
+  .grey3 .title60 {
+    text-align: center;
+    width: 100%;
+    left: 0;
+    font-size: 32px;
+  }
+  .grey4 .title60 {
+    text-align: center;
+    width: 100%;
+    left: 0;
+    font-size: 32px;
+  }
+  .toptitlesvg {
+    width: 100%;
+    z-index: 100;
+    display: block;
+  }
+  .top-title {
+    width: 80%;
+    left: 10%;
+    height: 45%;
+    top: 15%;
+  }
+  .group {
+    padding-top: 10px;
+  }
+  .title1 {
+    line-height: 1.2em;
+    font-size: 30px;
+  }
+  .header-btn div {
+    font-size: 15px;
+  }
+  .header-btn {
+    width: 80%;
+    left: 10%;
+    height: 45px;
+    top: 71%;
+  }
+  .title-bg {
+    display: block;
+  }
+  .title1-bg {
+    margin-top: -1px;
+  }
+  .txt div {
+    font-size: 15px;
+  }
+  .venture {
+    border: 3.5px #1a202e solid;
+    bottom: 15%;
+  }
+  .title1 {
+    font-size: 25px;
+    width: 80%;
+    padding-bottom: 5px;
+  }
+  .title2 {
+    font-size: 35px;
+  }
+  .title3 {
+    font-size: 15px;
+  }
+  .w-banner {
+    height: 35px;
+  }
+  .grey2 .group {
+    font-size: 15px;
+  }
+  .y-bg .title20 {
+    font-size: 15px;
+    width: 90%;
+    left: 5%;
+  }
+  .green-bg .title20 {
+    font-size: 15px;
+    width: 90%;
+    left: 5%;
+    top: 53px;
+  } 
+  .dark-bg .title20 {
+    top: 47px;
+    font-size: 15px;
+    width: 90%;
+    left: 5%;
+  }
+  .grey2 {
+    height: 150px;
+  }
+  .grey3 {
+    height: 80px;
+  }
+  .grey4 {
+    height: 80px;
+  }
+  .right {
+    right: 0;
+  }
+  .left {
+    left: 0;
+  }
+  .number {
+    width: 100%;
+    bottom: -27px;
+  }
+  .title272 {
+    font-size: 265px;
+    text-align: center;
+  }
+  .b-banner {
+    font-size: 15px;
+  }
+  .heart {
+    width: 8%;
+    bottom: 30%;
+  }
+  .four img {
+    width: 40px;
+    margin: 20px 8px;
+  }
+  .title15 {
+    line-height: 18px;
+  }
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83.258" height="83.258" viewBox="0 0 83.258 83.258">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.466" cy="1.201" r="1.286" gradientUnits="objectBoundingBox">
+      <stop offset="0.26" stop-color="#36b649"/>
+      <stop offset="0.76" stop-color="#57c965"/>
+    </radialGradient>
+    <filter id="Path_1924" x="0" y="0" width="83.258" height="83.258" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-2" cx="0.302" cy="1.028" r="1.07" gradientTransform="translate(-0.005) scale(1.009 1)" gradientUnits="objectBoundingBox">
+      <stop offset="0.22" stop-color="#e7e7e7"/>
+      <stop offset="0.88" stop-color="#fcfcfc"/>
+    </radialGradient>
+  </defs>
+  <g id="line" transform="translate(-1213.236 -2911)">
+    <g transform="matrix(1, 0, 0, 1, 1213.24, 2911)" filter="url(#Path_1924)">
+      <path id="Path_1924-2" data-name="Path 1924" d="M65.258,51.855a13.4,13.4,0,0,1-13.4,13.4H13.406A13.4,13.4,0,0,1,0,51.855V13.406A13.406,13.406,0,0,1,13.406,0H51.855a13.4,13.4,0,0,1,13.4,13.406Z" transform="translate(9 6)" fill="url(#radial-gradient)"/>
+    </g>
+    <g id="Group_66" data-name="Group 66" transform="translate(1234.176 2930.342)">
+      <path id="Path_1959" data-name="Path 1959" d="M51.325,28.34c0-9.178-9.205-16.65-20.517-16.65S10.29,19.162,10.29,28.34c0,8.232,7.3,15.124,17.161,16.429.691.145,1.575.442,1.8,1.015a4.192,4.192,0,0,1,.069,1.851s-.242,1.45-.29,1.761c-.09.518-.414,2.023,1.775,1.1S42.623,43.54,46.926,38.588h0c2.976-3.266,4.4-6.574,4.4-10.248" transform="translate(-10.29 -11.69)" fill="url(#radial-gradient-2)"/>
+      <path id="Path_1960" data-name="Path 1960" d="M33.165,29.38H31.7a.4.4,0,0,0-.4.394v8.978a.4.4,0,0,0,.4.4h1.464a.4.4,0,0,0,.4-.4V29.808a.4.4,0,0,0-.4-.394" transform="translate(-16.791 -17.164)" fill="#00b833"/>
+      <path id="Path_1961" data-name="Path 1961" d="M44.677,29.38H43.234a.394.394,0,0,0-.394.394v5.318l-4.1-5.525v-.035H36.971a.4.4,0,0,0-.4.394V38.9a.4.4,0,0,0,.4.4h1.436a.4.4,0,0,0,.4-.4v-5.5l4.1,5.525a.373.373,0,0,0,.1.1h1.609a.4.4,0,0,0,.4-.4V29.808a.4.4,0,0,0-.4-.394" transform="translate(-18.421 -17.164)" fill="#00b833"/>
+      <path id="Path_1962" data-name="Path 1962" d="M26.174,36.895H22.265V29.823a.4.4,0,0,0-.4-.394H20.421a.4.4,0,0,0-.421.394V38.8h0a.394.394,0,0,0,.117.276h0a.407.407,0,0,0,.276.11h5.753a.4.4,0,0,0,.4-.4V37.3a.4.4,0,0,0-.4-.4" transform="translate(-13.294 -17.179)" fill="#00b833"/>
+      <path id="Path_1963" data-name="Path 1963" d="M57.069,31.63a.394.394,0,0,0,.394-.4V29.821a.394.394,0,0,0-.394-.4H51.317a.387.387,0,0,0-.276.11h0a.38.38,0,0,0-.11.269h0v8.929h0a.387.387,0,0,0,.11.276h0a.4.4,0,0,0,.276.11h5.753a.394.394,0,0,0,.394-.4V37.293a.394.394,0,0,0-.394-.4H53.154V35.38h3.916a.394.394,0,0,0,.394-.4V33.543a.394.394,0,0,0-.394-.4H53.154V31.63Z" transform="translate(-22.865 -17.176)" fill="#00b833"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83.258" height="83.258" viewBox="0 0 83.258 83.258">
+  <defs>
+    <filter id="Path_1932" x="0" y="0" width="83.258" height="83.258" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="0.484" cy="1.186" r="1.379" gradientTransform="translate(0.151) scale(0.698 1)" gradientUnits="objectBoundingBox">
+      <stop offset="0.17" stop-color="#c2181e"/>
+      <stop offset="0.77" stop-color="#de2925"/>
+    </radialGradient>
+  </defs>
+  <g id="yutube" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Path_1932)">
+      <path id="Path_1932-2" data-name="Path 1932" d="M485.548,51.852a13.406,13.406,0,0,1-13.4,13.406H433.7A13.406,13.406,0,0,1,420.29,51.852V13.4A13.406,13.406,0,0,1,433.7,0h38.449a13.406,13.406,0,0,1,13.4,13.4Z" transform="translate(-411.29 6)" fill="#fff"/>
+    </g>
+    <path id="Path_1933" data-name="Path 1933" d="M491.187,64.862c0,6.18-2.114,11.192-8.294,11.192h-31.8c-6.18,0-8.955-5.012-8.955-11.192V53.022c0-6.18,2.511-11.192,8.691-11.192h32.325c6.18,0,8.031,5.012,8.031,11.192Z" transform="translate(-434.035 -26.313)" fill="url(#radial-gradient)"/>
+    <path id="Path_1934" data-name="Path 1934" d="M495,69.94l13.358,6.974L495,83.884Z" transform="translate(-467.286 -43.995)" fill="#fff"/>
+    <path id="Path_1935" data-name="Path 1935" d="M495,70.2l11.618,7.775,1.74-.905-12.327-6.436L495,70.19Z" transform="translate(-467.286 -44.153)" fill="#e8e0e0"/>
+  </g>
+</svg>

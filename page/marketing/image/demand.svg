@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62.3" height="62.3" viewBox="0 0 62.3 62.3">
+  <g id="demand" transform="translate(-0.85 -0.85)">
+    <path id="Path_2587" data-name="Path 2587" d="M47.939,54.342l4-11A1,1,0,0,0,51,42H31.233l-1.275-4.285A1,1,0,0,0,29,37H24v2h4.254L33.6,56.949A3,3,0,0,0,36.441,59H47V57H36.441a.992.992,0,0,1-.939-.652L35.1,55H47a1,1,0,0,0,.939-.658ZM34.506,53l-2.678-9H49.572L46.3,53ZM3,52a3,3,0,0,1,3-3H18a3,3,0,0,1,3,3V63h2V52a5.006,5.006,0,0,0-5-5H16.459A6,6,0,1,0,7.54,47H6a5.006,5.006,0,0,0-5,5V63H3Zm5-9a4,4,0,1,1,4,4,4,4,0,0,1-4-4Z" stroke="#fff" stroke-width="0.3"/>
+    <rect id="Rectangle_428" data-name="Rectangle 428" width="2" height="11" transform="translate(17 52)" stroke="#fff" stroke-width="0.3"/>
+    <rect id="Rectangle_429" data-name="Rectangle 429" width="2" height="11" transform="translate(5 52)" stroke="#fff" stroke-width="0.3"/>
+    <path id="Path_2588" data-name="Path 2588" d="M40,1C27.317,1,17,9.075,17,19S27.317,37,40,37s23-8.075,23-18S52.683,1,40,1Zm0,34c-11.579,0-21-7.178-21-16S28.421,3,40,3s21,7.178,21,16S51.579,35,40,35Z" stroke="#fff" stroke-width="0.3"/>
+    <path id="Path_2589" data-name="Path 2589" d="M39.93,19a8,8,0,1,0-9.95,3.407L28.151,29.23l1.932.518,1.829-6.824A7.983,7.983,0,0,0,39.93,19ZM30,20.2A6,6,0,1,1,38.2,18,6,6,0,0,1,30,20.2Z" stroke="#fff" stroke-width="0.3"/>
+    <path id="Path_2590" data-name="Path 2590" d="M28.122,13.751l1.938.5a3,3,0,0,1,2.154-2.154l-.5-1.937A5,5,0,0,0,28.122,13.751Z" stroke="#fff" stroke-width="0.3"/>
+    <rect id="Rectangle_430" data-name="Rectangle 430" width="16" height="2" transform="translate(38 27)" stroke="#fff" stroke-width="0.3"/>
+    <rect id="Rectangle_431" data-name="Rectangle 431" width="2" height="4" transform="translate(39 22)" stroke="#fff" stroke-width="0.3"/>
+    <rect id="Rectangle_432" data-name="Rectangle 432" width="2" height="7" transform="translate(43 19)" stroke="#fff" stroke-width="0.3"/>
+    <rect id="Rectangle_433" data-name="Rectangle 433" width="2" height="10" transform="translate(47 16)" stroke="#fff" stroke-width="0.3"/>
+    <rect id="Rectangle_434" data-name="Rectangle 434" width="2" height="13" transform="translate(51 13)" stroke="#fff" stroke-width="0.3"/>
+    <rect id="Rectangle_435" data-name="Rectangle 435" width="3" height="3" rx="1.5" transform="translate(35.323 60)" stroke="#fff" stroke-width="0.3"/>
+    <rect id="Rectangle_436" data-name="Rectangle 436" width="3" height="3" rx="1.5" transform="translate(44 60)" stroke="#fff" stroke-width="0.3"/>
+  </g>
+</svg>

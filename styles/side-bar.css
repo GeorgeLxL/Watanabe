@@ -1,0 +1,351 @@
+/*    --------  Side Bar -------- */
+.side-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: no-repeat #1a202e center;
+  width: 17%;
+  height: 100vh;
+  z-index: 1000;
+  text-align: center;
+}
+
+.logo-title {
+  height: 148px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+  line-height: 50px;
+  font-family: meiryo!important;
+  font-weight: bold;
+}
+.logo-title a {
+  color: white!important;
+  font-size: 2.5vw;
+  width: 100%;
+  text-decoration: none!important;
+}
+
+.menu-title {
+  color: #fff;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  position: relative;
+  text-align: left;
+  padding: 10px 5px 10px 10px;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin-bottom: 0;
+  font-family: meiryo;
+  font-weight: unset;
+  cursor: pointer;
+}
+
+.menu-title:hover::before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0; 
+}
+
+.menu-title:hover::after {
+  color: #fff; 
+  display: inline-block;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+  transition: all 0.3s ease;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  padding-left: 5px;
+}
+p.menu-title:last-of-type {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+p.menu-title:nth-of-type(1):hover::after {
+  content: "> TOPページ"; 
+}
+p.menu-title:nth-of-type(2):hover::after {
+  content: ""; 
+}
+p.menu-title:nth-of-type(3):hover::after {
+  content: "> ニュース＆トピック"; 
+}
+p.menu-title:nth-of-type(4):hover::after {
+  content: "> グループ内求人募"; 
+}
+p.menu-title:nth-of-type(5):hover::after {
+  content: "> 代表挨拶"; 
+}
+p.menu-title:nth-of-type(6):hover::after {
+  content: "> お問合せ"; 
+}
+
+/*    --------  Side Bar -------- */
+
+
+.content {
+  position: absolute;
+  display: inline-block;
+  min-height: 100vh;
+  width: 83%;
+  left: 17%;
+}
+.left-logo-h {
+  display: none;
+}
+.closebtn {
+  display: none;
+}
+@media(max-width: 1000px) {
+  .logo-title a {
+    font-size: 22px;
+  }
+}
+@media(min-width: 1600px) {
+  .logo-title a {
+    font-size: 35px;
+  }
+}
+@media(min-width:900px) {
+  .left-logo {
+    position: absolute;
+    bottom: 50px;
+    left: 20%;
+    width: 60%;
+  }
+}
+@media(max-width: 900px) {
+  .side-bar {
+    width: 0;
+    z-index: 1000;
+    min-width: unset;
+    transition: 0.5s;
+    overflow-x: hidden;
+  }
+  .content {
+    width: 100%;
+    left: 0;
+  }
+  .overlay-content {
+    width: 100%;
+    position: relative;
+  }
+  .logo-title {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-title a {
+    font-size: 50px;
+  }
+  .menu-title {
+    text-align: center;
+    width: 70%;
+    font-size: 20px;
+    margin-left: 15%;
+    white-space: nowrap;
+  }
+  .menu-title:hover::before {
+    /*height: 100%;*/
+    display: none;
+  }
+  .menu-title:hover::after {
+    /*pointer-events: none;*/
+    display: none;
+  }
+  .menu-title:active::before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    top: 0;
+    left: 0; 
+  }
+
+  p.menu-title:nth-of-type(1):hover::after {
+    content: ""; 
+  }
+  p.menu-title:nth-of-type(2):hover::after {
+    content: ""; 
+  }
+  p.menu-title:nth-of-type(3):hover::after {
+    content: ""; 
+  }
+  p.menu-title:nth-of-type(4):hover::after {
+    content: ""; 
+  }
+  p.menu-title:nth-of-type(5):hover::after {
+    content: ""; 
+  }
+  p.menu-title:nth-of-type(6):hover::after {
+    content: ""; 
+  }
+  .left-logo {
+    position: relative;
+    left: unset;
+    bottom: unset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 25%;
+  }
+  .side-bar.is-show {
+    width: 100%;
+  }
+  .is-show .closebtn {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    font-size: 100px;
+    color: white;
+  }
+}
+@media screen and (max-width: 700px) and (min-width: 402px) {
+  .logo-title {
+    height: 40%;
+    width: 60%;
+  }
+  .logo-title div {
+    width: 100%;
+    font-size: 45px;
+  }
+  .is-show .closebtn {
+    font-size: 60px;
+  }
+}
+
+@media (max-width :400px) {
+  .left-logo {
+    display: none;
+  }
+  .logo-title {
+    height: 30%;
+    width: 100%;
+  }
+  .left-logo-h {
+  display: block;
+  }
+  .is-show .closebtn {
+    font-size: 40px;
+    top: 0px;
+  }
+  .logo-title a {
+    font-size: 40px;
+  }
+  .left-logo-h {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    position: relative;
+    width: 60%;
+  }
+  .flow-button {
+    right: 0;
+  }
+}
+
+.sidebar-trigger {
+  position: fixed;
+  top: 45px;
+  min-width: 40px;
+  min-height: 45px;
+  left: 0;
+  background-image: url(../img/common/1.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 50;
+  cursor: pointer;
+}
+
+
+/*------------------   Page Transition        -----------------------*/
+
+#preloader {
+  overflow: hidden;
+  background: #1a202e;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 9999999;
+  color: #fff;
+}
+
+#preloader .jumper {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  position: absolute;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+
+#preloader .jumper > div {
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute;
+  opacity: 0;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: jumper 1s 0s linear infinite;
+  animation: jumper 1s 0s linear infinite;
+}
+
+#preloader .jumper > div:nth-child(2) {
+  -webkit-animation-delay: 0.33333s;
+  animation-delay: 0.33333s;
+}
+
+#preloader .jumper > div:nth-child(3) {
+  -webkit-animation-delay: 0.66666s;
+  animation-delay: 0.66666s;
+}
+
+@-webkit-keyframes jumper {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  5% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes jumper {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  5% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

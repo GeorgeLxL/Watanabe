@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83.258" height="83.254" viewBox="0 0 83.258 83.254">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.508" cy="1.225" r="1.347" gradientTransform="translate(0)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3b5998"/>
+      <stop offset="0.3" stop-color="#3b5998"/>
+      <stop offset="1" stop-color="#5f83cf"/>
+    </radialGradient>
+    <filter id="Path_1965" x="0" y="0" width="83.258" height="83.254" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="facebook" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Path_1965)">
+      <path id="Path_1965-2" data-name="Path 1965" d="M24.951,0H40.307A24.951,24.951,0,0,1,65.258,24.951V40.3A24.951,24.951,0,0,1,40.307,65.254H24.951A24.951,24.951,0,0,1,0,40.3V24.951A24.951,24.951,0,0,1,24.951,0Z" transform="translate(9 6)" fill="url(#radial-gradient)"/>
+    </g>
+    <path id="Path_1940" data-name="Path 1940" d="M305.252,234.977h6.017v-9.448h-9.022a12.189,12.189,0,0,0-9.274,4.559s-2.463,2.322-2.5,9.122h0v7.1h-8.9v10.049h8.9v25.967h10.283V256.355h8.851l1.232-10.049h-10.1v-7.1h0A4.144,4.144,0,0,1,305.252,234.977Z" transform="translate(-255.077 -217.053)" fill="#fff"/>
+  </g>
+</svg>

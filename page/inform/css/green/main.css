@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* main.css
+**************************************************************************************/
+
+/* Base
+=============================================================================*/
+
+.contents-area .form-box {
+	border-top:1px solid #d5d5d5;
+	border-left:1px solid #d5d5d5;
+}
+.contents-area .form-box-table .item-title {
+	border-right:1px solid #d5d5d5;
+	border-bottom:1px solid #d5d5d5;
+	background-color:#effcf9;
+}
+.contents-area .form-box-table .item-input {
+	border-right:1px solid #d5d5d5;
+	border-bottom:1px solid #d5d5d5;
+}
+
+@media screen and (max-width: 679px){
+.contents-area .form-box {
+	border-top:none;
+	border-left:none;
+}
+.contents-area .form-box-table .item-title {
+	border-right:none;
+	border-bottom:none;
+	background-color:#dbf7f1;
+}
+.contents-area .form-box-table .item-input {
+	border-right:none;
+	border-bottom:none;
+}
+}
+
+/* Error
+=============================================================================*/
+/*必須アイコン*/
+.contents-area span.error::before {
+    background-color: #ea5308;
+}
+
+/* 見出し（h2）
+=============================================================================*/
+
+.contents-area .h2-title-area {
+	background-color:#FFFFFF;
+	margin-bottom:20px;
+	margin-top:30px;
+}
+.contents-area .h2-title-area h2 {
+	border-left:8px solid #16a085;
+	padding:5px 0 5px 15px;
+}
+.contents-area .h2-title-area h2 span {
+	font-size:20px;
+}
+
+@media screen and (max-width: 679px){
+.contents-area .h2-title-area {
+	padding:0 5px;
+	margin-bottom:15px;
+	margin-top:15px;
+}
+.contents-area .h2-title-area h2 {
+	padding:5px 0 5px 10px;
+}
+.contents-area .h2-title-area h2 span {
+	font-size:18px;
+}
+}
+
+/* 小見出し（h3）
+=============================================================================*/
+
+.contents-area .h3-title-area h3 {
+	border-bottom:1px solid #CCCCCC;
+}
+
+/* 住所
+=============================================================================*/
+
+.contents-area .address-input .zipcode-search input.search-btn {
+	background:#19404b;
+}
+
+
+/* Bottom Btn
+=============================================================================*/
+
+.contents-area .bottom-btn-area p input {
+	background: url("../../image/btn-ar001.png") #ff9600 no-repeat 30px center;
+	padding:22px 85px 22px 89px;
+	-moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+	/*shadow*/
+	-moz-box-shadow: 0px 2px 0px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 2px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 0px rgba(0,0,0,0.2);
+}
+
+.contents-area .bottom-btn-area p.step03-btn input {
+	background-image: none;
+}
+
+@media screen and (max-width: 679px){
+.contents-area .bottom-btn-area p input {
+	display:block;
+	width:100%;
+	padding:20px 40px 20px 50px;
+	/*border-box*/
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing:border-box;
+	font-size:16px !important;
+}
+.contents-area .bottom-btn-area p.step03-btn input {
+	background-position:20px center;
+}
+
+}
+
+
+/* ログインページ
+=============================================================================*/
+
+.txt-login-page .contents-area .login-area .login-btn input {
+	-moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+	background:#ff9600;
+}

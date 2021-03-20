@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html class="full-height" lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WATANABE Corperation. 私たちが歩みを止めることはありません。 </title>
+    <meta name="description" content="WHDが目指す姿、経営に込める想い。私たちが歩みを止めることはありません。人が笑顔になる仕事
+    世の中が豊かになる仕事を追求する"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="styles/side-bar.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollify.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+    <style>
+      .tooltip-inner {
+        background-color: #1a202e;
+      }
+      .tooltip.show {
+        opacity: 1;
+      }
+      .bs-tooltip-auto[x-placement^=bottom] .arrow::before, .bs-tooltip-bottom .arrow::before {
+          border-bottom-color: #1a202e;
+      }
+      body {
+        font-family: unset;
+      }
+    </style>
+    <script type="text/javascript">
+      window.onclick = function(event) {
+        var trigger = document.getElementById("trigger");
+        if (trigger.classList.contains("change")) {
+            trigger.classList.remove("change");
+            $("#trigger").addClass("unchange");
+            setTimeout(function(){$("#trigger").removeClass("touch"); }, 500);
+        }
+        var button = $(".button.appear");
+        button.removeClass("appear");
+        button.addClass("disappear");
+      }
+      function moveVideo(e) {
+        $('#myNav').removeClass("is-show");          
+        $.scrollify.move(e);
+      }
+      window.onload = function(event) {
+            $("#preloader").animate({
+                'opacity': '0'
+            }, 600, function(){
+                setTimeout(function(){
+                    $("#preloader").css("visibility", "hidden").fadeOut();
+                }, 300);
+            });
+      }
+    </script>
+  </head>
+  <body>
+    <div id="preloader">
+      <div class="jumper">
+          <div></div>
+          <div></div>
+          <div></div>
+      </div>
+    </div> 
+    <div id="myNav" class="side-bar">
+      <a href="javascript:void(0)" class="closebtn">&times;</a>
+      <div class="h3 logo-title"><a href="./index.html"><div>WATANABE HOLDINGS</div></a></div>
+      <div class="overlay-content">
+        <div class="menu">
+            <p class="menu-title" onclick="moveVideo(0);">Top</p>
+            <p class="menu-title" onclick="moveVideo(1);">DigitalMarketing</p>
+            <p class="menu-title" onclick="moveVideo(2);">Topics</p>
+            <p class="menu-title" onclick="moveVideo(3);">Recruit</p>
+            <p class="menu-title" onclick="moveVideo(4);">Introduction</p>
+            <p class="menu-title" onclick="moveVideo(5);">Information</p>
+        </div>
+<!--         <div class="menu res-side2">
+            <p class="menu-title" onclick="document.location.href = 'page/list/index.html';">Top</p>
+            <p class="menu-title" onclick="document.location.href = 'page/marketing/index.html';">DigitalMarketing</p>
+            <p class="menu-title" onclick="document.location.href = 'page/news/index.html';">Topics</p>
+            <p class="menu-title" onclick="document.location.href = 'page/recruit/index.html';">Recruit</p>
+            <p class="menu-title" onclick="document.location.href = 'page/president/index.html';">Introduction</p>
+            <p class="menu-title" onclick="document.location.href = 'page/inform/index.html';">Information</p>
+        </div> -->
+        <div class="sidebar-logo">
+          <a href="./index.html">
+            <img src="./img/common/logo.svg" alt="WHD-Logo" class="left-logo">
+            <img src="./img/common/logo-h.svg" alt="Watanabe-Logo" class="left-logo-h">
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar-trigger"></div>
+    <div class="d-none flow-button">
+      <div class="disappear button button1" onclick="document.location.href='page/list/index.html'">WHD</div>
+      <div class="disappear button button2" onclick="document.location.href='page/marketing/index.html'">WHD DM</div>
+      <div class="disappear button button3" onclick="document.location.href='page/inform/index.html'">Information</div>
+    </div>
+    <div class="button-trigger" id="trigger" onclick="event.stopPropagation();">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <div class="entry-button">
+      <svg data-toggle="tooltip" title="WHD Webマーケティング" width="150" height="40">
+        <a xlink:href="page/list/index.html">
+          <text x="55" y="25" fill="white">WHD</text>
+        </a>
+      </svg>
+      <svg data-toggle="tooltip" title="WHD Digital Marketing" width="150" height="40">
+        <a xlink:href="page/marketing/index.html">
+          <text x="40" y="25" fill="white">WHD DM</text>
+        </a>
+      </svg>
+      <svg data-toggle="tooltip" title="代表取締役挨拶" width="150" height="40">
+        <a xlink:href="page/inform/index.html">
+          <text x="30" y="25" fill="white">Information</text>
+        </a>
+      </svg>
+    </div>
+    <div class="content">
+      <div class="page-content section1">
+        <div class="video-block">
+          <video  src="video/video01.mp4" muted preload id="Video01" class="video-fix">
+            <source src="video/video01.mp4" type="video/mp4">
+          </video>
+          <div class="video-inner">
+            <div class="video-title">
+              <div class="v-title res20" style="margin-left: -10px;">２０２１年ビジネス転換期</div>
+              <div class="v-title res21" style="margin-left: -10px;">２０２１年<br>ビジネス転換期</div>
+            </div>
+            <div class="video-text">
+              「人」「ＩＴ」<br>広告からデジタルマーケティングへ
+            </div>
+            <div class="video-button" onclick="document.location.href='page/list/index.html'">
+                  <svg width="270" height="60">
+                    <text class="stext1" x="73" y="37" fill="white">WHDとは？</text>
+                    <text class="stext2" x="73" y="33" fill="white">WHDとは？</text>
+                    <polygon class="poly1" points="0,0 270,0 270,60 0,60" />
+                    <polygon class="poly2" points="0,0 270,0 270,50 0,50" />
+                  </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-content section2">
+        <div class="video-block">
+          <video muted preload id="Video02" class="video-fix">
+            <source src="video/video02.mp4" type="video/mp4">
+          </video>
+          <div class="video-inner">
+            <div class="video-title">
+              <div class="v-title res20" style="margin-left: -10px;">
+                ビジネスを創造する
+              </div>              
+              <div class="v-title res21" style="margin-left: -10px;">
+                ビジネスを<br>創造する
+              </div>
+            </div>
+            <div class="video-text res20">
+              WHDデジタルマーケティング<span>（WHDDM）</span><br>これからの時代のWEB戦略とは？
+            </div>
+            <div class="video-text res21">
+              WHDデジタル<br>マーケティング<span>（WHDDM）</span><br>これからの時代のWEB戦略とは？
+            </div>
+            <div class="video-button" onclick="document.location.href='page/marketing/index.html'">
+                <!-- <a href="page/marketing/index.html"> -->
+                  <svg width="270" height="60">
+                    <text class="stext1" x="18" y="37" fill="white">WHD Digital Marketing</text>
+                    <text class="stext2" x="18" y="33" fill="white">WHD Digital Marketing</text>
+                    <polygon class="poly1" points="0,0 270,0 270,60 0,60" />
+                    <polygon class="poly2" points="0,0 270,0 270,50 0,50" />
+                  </svg>
+                <!-- </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-content section3">
+        <div class="video-block">
+          <video muted preload id="Video03" class="video-fix">
+            <source src="video/video03.mp4" type="video/mp4">
+          </video>
+          <div class="video-inner">
+            <div class="video-title">
+              <div class="v-title">
+                WHD NEWS
+              </div>
+            </div>
+            <div class="video-text">
+              INNOVATIONの追求<br>新しい事を発信していく
+            </div>
+            <div class="video-button" onclick="document.location.href='page/news/index.html'">
+                <!-- <a href="page/news/index.html"> -->
+                  <svg width="270" height="60">
+                    <text class="stext1" x="60" y="37" fill="white">News & Topics</text>
+                    <text class="stext2" x="60" y="33" fill="white">News & Topics</text>
+                    <polygon class="poly1" points="0,0 270,0 270,60 0,60" />
+                    <polygon class="poly2" points="0,0 270,0 270,50 0,50" />
+                  </svg>
+                <!-- </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-content section4">
+        <div class="video-block">
+          <video muted preload id="Video04" class="video-fix">
+            <source src="video/video04.mp4" type="video/mp4">
+          </video>
+          <div class="video-inner">
+            <div class="video-title">
+              <div class="v-title res20">
+                人生を成功させよう。
+              </div>
+              <div class="v-title res21">
+                人生を<br>成功させよう。
+              </div>
+            </div>
+            <div class="video-text res20">
+              株式会社渡辺ホールディングスは<br>自分の人生の物語を豊かにする場所。
+            </div>
+            <div class="video-text res21">
+              株式会社渡辺ホールディングスは<br>自分の人生の物語を
+              <br>豊かにする場所。
+            </div>
+            <div class="video-button" onclick="document.location.href='page/recruit/index.html'">
+                <!-- <a href="page/recruit/index.html"> -->
+                  <svg width="270" height="60">
+                    <text class="stext1" x="100" y="37" fill="white">Recruit</text>
+                    <text class="stext2" x="100" y="33" fill="white">Recruit</text>
+                    <polygon class="poly1" points="0,0 270,0 270,60 0,60" />
+                    <polygon class="poly2" points="0,0 270,0 270,50 0,50" />
+                  </svg>
+                <!-- </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-content section5">
+        <div class="video-block">
+          <video muted preload id="Video05" class="video-fix special">
+            <source src="video/video05.mp4" type="video/mp4">
+          </video>
+          <div class="video-inner">
+            <div class="video-title">
+              <div class="v-title res20">
+                時代のニーズに応え続ける
+              </div>
+              <div class="v-title res21">
+                時代のニーズに<br>応え続ける
+              </div>
+            </div>
+            <div class="video-text">
+              人が笑顔になる仕事<br>世の中が豊かになる仕事を追求する
+            </div>
+            <div class="video-button" onclick="document.location.href='page/president/index.html'">
+                <!-- <a href="page/president/index.html"> -->
+                  <svg width="270" height="60">
+                    <text class="stext1" x="22" y="37" fill="white">Introduction&nbsp;＞&nbsp;代表挨拶</text>
+                    <text class="stext2" x="22" y="33" fill="white">Introduction&nbsp;＞&nbsp;代表挨拶</text>
+                    <polygon class="poly1" points="0,0 270,0 270,60 0,60" />
+                    <polygon class="poly2" points="0,0 270,0 270,50 0,50" />
+                  </svg>
+                <!-- </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-content section6">
+        <div class="video-block">
+          <video muted preload id="Video06" class="video-fix">
+            <source src="video/video06.mp4" type="video/mp4">
+          </video>
+          <div class="video-inner">
+            <div class="video-title">
+              <div class="v-title res20" style="margin-left: -10px;">
+                WHD Information
+              </div>
+              <div class="v-title res21" style="margin-left: -10px;">
+                WHD Information
+              </div>
+            </div>
+            <div class="video-text res20">
+              WHDが目指す姿、経営に込める想い。<br>
+              私たちが歩みを止めることはありません。
+            </div>
+            <div class="video-text res21">
+              WHDが目指す姿、<br>経営に込める想い。<br>
+              私たちが歩みを止めることはありません。
+            </div>
+            <div class="video-button" onclick="document.location.href='page/inform/index.html'">
+                <!-- <a href="page/inform/index.html"> -->
+                  <svg width="270" height="60">
+                    <text class="stext1" x="80" y="37" fill="white">Information</text>
+                    <text class="stext2" x="80" y="33" fill="white">Information</text>
+                    <polygon class="poly1" points="0,0 270,0 270,60 0,60" />
+                    <polygon class="poly2" points="0,0 270,0 270,50 0,50" />
+                  </svg>
+                <!-- </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-arrow"><img src="img/common/right-bottom-scroll-icon.png" alt="watanabe-arrow"></div>
+    </div>
+
+    <div class="bottom">
+      <div class="bottom-title"  onclick="window.location.href='./page/news/index.html'">
+        <div class="news-title">News&nbsp;&nbsp;|</div>
+        <div class="news-content">
+            <div>
+              <span>&nbsp;&nbsp;2021.01.05&nbsp;&nbsp;|&nbsp;&nbsp;Specials&nbsp;&nbsp;|&nbsp;&nbsp;サイトが開設されました。</span>
+              <span>&nbsp;&nbsp;2021.01.05&nbsp;&nbsp;|&nbsp;&nbsp;Specials&nbsp;&nbsp;|&nbsp;&nbsp;サイトが開設されました。</span>
+            </div>
+        </div>
+      </div>
+      <div class="social">
+        <a href="https://facebook.com"><img src="./img/common/FB.svg" alt="facebook" class="fb"></a>
+        <a href="https://twitter.com"><img src="./img/common/TW.svg" alt="twitter" class="tw"></a>
+        <a href="https://instagram.com"><img src="./img/common/IN.svg" alt="Instagram" class="in"></a>
+        <a href="https://youtube.com"><img src="./img/common/youtube.svg" alt="" class="youtu"></a>
+      </div>
+    </div>
+    <div class="social-res">
+      <a href="https://facebook.com"><img src="./img/common/FB.svg" alt="facebook" class="fb"></a>
+      <a href="https://twitter.com"><img src="./img/common/TW.svg" alt="twitter" class="tw"></a>
+      <a href="https://instagram.com"><img src="./img/common/IN.svg" alt="instagram" class="in"></a>
+      <a href="https://youtube.com"><img src="./img/common/youtube.svg" alt="youtube" class="youtu"></a>
+    </div>
+  </body>
+    <script type="text/javascript" src="scripts/scroll.js"></script>
+</html>

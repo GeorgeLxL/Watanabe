@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="198" height="40" viewBox="0 0 198 40">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="1" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#44e8e6"/>
+      <stop offset="1" stop-color="#0f8988"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#34c7c6"/>
+    </linearGradient>
+  </defs>
+  <g id="button-back" transform="translate(-75 -66)">
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(75 66)" fill="#0f8988" stroke="#0c7877" stroke-width="1">
+      <rect width="198" height="40" rx="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="197" height="39" rx="19.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="196" height="38" rx="19" transform="translate(76 67)" fill="url(#radial-gradient)"/>
+    <path id="Path_1" data-name="Path 1" d="M19.873,0H176.75a18.992,18.992,0,0,1,17.821,10.922C195.908,13.458,190.4,17.5,173.85,20H23.6C9.945,18.5.816,13.561,2.369,10.548a19.611,19.611,0,0,1,7-7.7A19.9,19.9,0,0,1,19.873,0Z" transform="translate(75.617 67)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

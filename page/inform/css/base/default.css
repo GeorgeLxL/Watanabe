@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+/* default.css
+**************************************************************************************/
+
+
+/* CSS Reset
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-style:normal;
+ 	/* font-weight: normal; */
+	/* font-size: 100%; */
+	vertical-align: baseline;
+	/* line-height:1.4em; */
+
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html{
+  overflow-y: scroll;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+input, textarea {
+	margin: 0;
+	padding: 0;
+}
+
+ol, ul{
+  list-style:none;
+}
+
+table{
+  border-collapse: collapse; 
+  border-spacing:0;
+}
+
+caption, th{
+  text-align: left;
+}
+
+a:focus {
+	outline:none;
+}
+
+table {	border-collapse: collapse;	border-spacing: 0;}
+
+/*Artis-add*/
+br { letter-spacing: normal;}
+hr { display: none;}
+img { vertical-align: top; font-size:1px;}
+
+img a { border:none;}
+
+/* Voice Reader Hide
+=============================================================================*/
+p.hide {
+	margin: 0;
+	padding: 0;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	position: absolute;
+	text-indent: -9999px;
+}
+
+
+/* Float Clear
+=============================================================================*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	font-size:0.1em;
+}
+.clearfix {	display:inline-block;}
+/*\*/
+* html .clearfix { height: 1%;}
+.clearfix {	display: block;}
+/**/
+.clear { clear: both; }
+
+
+/* Font
+=============================================================================*/
+a{overflow:hidden;}
+a:link { 
+	color:#0d71bd;
+	text-decoration:underline;}
+a:visited { 
+	color:#636;
+	text-decoration:underline;}
+a:hover { color:#f39a00; }
+a:active { color:#f39a00; }
+a.blank {
+	padding: 0;
+}
+body {
+	margin:0;
+	padding:0;
+	letter-spacing:normal;
+	-webkit-text-size-adjust: 100%;
+	font-size:86%;
+}
+
+/* Layout Space
+=============================================================================*/
+.sp-mb000 { margin-bottom:0 !important;}
+.sp-mb005 { margin-bottom:5px !important;}
+.sp-mb010 { margin-bottom:10px !important;}
+.sp-mb015 { margin-bottom:15px !important;}
+.sp-mb020 { margin-bottom:20px !important;}
+.sp-mb025 { margin-bottom:25px !important;}
+.sp-mb030 { margin-bottom:30px !important;}
+.sp-mb040 { margin-bottom:40px !important;}
+.sp-mb050 { margin-bottom:50px !important;}
+.sp-mb075 { margin-bottom:75px !important;}
+.sp-mb100 { margin-bottom:100px !important;}
+.sp-mb125 { margin-bottom:125px !important;}
+.sp-mb150 { margin-bottom:150px !important;}
+.sp-mb200 { margin-bottom:200px !important;}
+
+.sp-pb000 { padding-bottom:0 !important;}
+.sp-pb005 { padding-bottom:5px !important;}
+.sp-pb010 { padding-bottom:10px !important;}
+.sp-pb015 { padding-bottom:15px !important;}
+.sp-pb020 { padding-bottom:20px !important;}
+.sp-pb025 { padding-bottom:25px !important;}
+.sp-pb030 { padding-bottom:30px !important;}
+.sp-pb040 { padding-bottom:40px !important;}
+.sp-pb050 { padding-bottom:50px !important;}
+.sp-pb075 { padding-bottom:75px !important;}
+.sp-pb100 { padding-bottom:100px !important;}
+.sp-pb125 { padding-bottom:125px !important;}
+.sp-pb150 { padding-bottom:150px !important;}
+.sp-pb200 { padding-bottom:200px !important;}
+
+/* Text Decoration (CMS)
+=============================================================================*/
+/*Color*/
+span.color-01 { color: #000000;}
+span.color-02 { color: #808080;}
+span.color-03 { color: #800000;}
+span.color-04 { color: #FF0000;}
+span.color-05 { color: #808000;}
+span.color-06 { color: #008000;}
+span.color-07 { color: #008080;}
+span.color-09 { color: #000080;}
+span.color-10 { color: #CC6600;}
+span.color-11 { color: #800080;}
+
+/*Style*/
+span.strong { font-weight: bold;}
+span.i { font-style: italic; font-family: MS UI Gothic,Verdana,sans-serif,"ヒラギノ角ゴ Pro W3","Osaka","ＭＳ Ｐゴシック";}
+span.v-top { vertical-align:top; font-size:80%;}
+span.v-bottom { vertical-align:bottom; font-size:80%;}
+span.right-adjust { display:block; text-align:right;}
+span.center-justification { display:block; text-align:center;}
+span.non-breaking { display:block; text-align:right;}
+
+/*WYSIWYG Color Pallet*/
+span.C000000 { color: #000000;}
+span.C993300 { color: #993300;}
+span.C333300 { color: #333300;}
+span.C003300 { color: #003300;}
+span.C003366 { color: #003366;}
+span.C000080 { color: #000080;}
+span.C333399 { color: #333399;}
+span.C333333 { color: #333333;}
+span.C800000 { color: #800000;}
+span.CFF6600 { color: #FF6600;}
+span.C808000 { color: #808000;}
+span.C008000 { color: #008000;}
+span.C008080 { color: #008080;}
+span.C0000FF { color: #0000FF;}
+span.C666699 { color: #666699;}
+span.C808080 { color: #808080;}
+span.CFF0000 { color: #FF0000;}
+span.CFF9900 { color: #FF9900;}
+span.C99CC00 { color: #99CC00;}
+span.C339966 { color: #339966;}
+span.C33CCCC { color: #33CCCC;}
+span.C3366FF { color: #3366FF;}
+span.C800080 { color: #800080;}
+span.C999999 { color: #999999;}
+span.CFF00FF { color: #FF00FF;}
+span.CFFCC00 { color: #FFCC00;}
+span.CFFFF00 { color: #FFFF00;}
+span.C00FF00 { color: #00FF00;}
+span.C00CCFF { color: #00CCFF;}
+span.C993366 { color: #993366;}
+span.CC0C0C0 { color: #C0C0C0;}
+span.CFF99CC { color: #FF99CC;}
+span.CFFCC99 { color: #FFCC99;}
+span.CFFFF99 { color: #FFFF99;}
+span.CCCFFCC { color: #CCFFCC;}
+span.CCCFFFF { color: #CCFFFF;}
+span.C99CCFF { color: #99CCFF;}
+span.C666699 { color: #666699;}
+span.C777777 { color: #777777;}
+span.C999999 { color: #999999;}
+span.CEEEEEE { color: #EEEEEE;}
+span.CFFFFFF { color: #FFFFFF;}

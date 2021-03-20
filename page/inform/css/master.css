@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* master.css
+***************************************************************************************/
+
+
+/* import base
+------------------------------------------------------------ */
+@import "base/default.css";
+@import "base/header.css";
+@import "base/main.css";
+@import "base/footer.css";

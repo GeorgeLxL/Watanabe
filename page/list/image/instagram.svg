@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83.258" height="83.262" viewBox="0 0 83.258 83.262">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.293" cy="1.077" r="1.325" gradientTransform="translate(0)" gradientUnits="objectBoundingBox">
+      <stop offset="0.1" stop-color="#ffd879"/>
+      <stop offset="0.15" stop-color="#fccb76"/>
+      <stop offset="0.26" stop-color="#f5aa6c"/>
+      <stop offset="0.4" stop-color="#e9755e"/>
+      <stop offset="0.45" stop-color="#e45f58"/>
+      <stop offset="0.68" stop-color="#d22a9c"/>
+      <stop offset="1" stop-color="#6968df"/>
+    </radialGradient>
+    <filter id="Path_1964" x="0" y="0" width="83.258" height="83.262" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="instagram" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Path_1964)">
+      <path id="Path_1964-2" data-name="Path 1964" d="M24.951,0H40.307A24.951,24.951,0,0,1,65.258,24.951v15.36A24.951,24.951,0,0,1,40.307,65.262H24.951A24.951,24.951,0,0,1,0,40.311V24.951A24.951,24.951,0,0,1,24.951,0Z" transform="translate(9 6)" fill="url(#radial-gradient)"/>
+    </g>
+    <path id="Path_1928" data-name="Path 1928" d="M265.823,21.63H246.935A15.165,15.165,0,0,0,231.77,36.795V55.683a15.161,15.161,0,0,0,15.165,15.161h18.889a15.161,15.161,0,0,0,15.161-15.161V36.795A15.161,15.161,0,0,0,265.823,21.63Zm10.439,32.24a12.241,12.241,0,0,1-12.241,12.241H248.745A12.241,12.241,0,0,1,236.5,53.87V38.6a12.241,12.241,0,0,1,12.241-12.241h15.265A12.241,12.241,0,0,1,276.251,38.6Z" transform="translate(-223.75 -13.606)" fill="#fff"/>
+    <path id="Path_1929" data-name="Path 1929" d="M277.895,53.25A12.965,12.965,0,1,0,290.86,66.214,12.965,12.965,0,0,0,277.895,53.25Zm0,20.773a7.784,7.784,0,1,0,0-.011Z" transform="translate(-244.609 -33.497)" fill="#fff"/>
+    <path id="Path_1930" data-name="Path 1930" d="M330.116,47.108a3.3,3.3,0,1,1-3.3-3.3A3.3,3.3,0,0,1,330.116,47.108Z" transform="translate(-281.465 -27.559)" fill="#fff"/>
+  </g>
+</svg>

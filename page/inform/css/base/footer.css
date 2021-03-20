@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* footer.css
+**************************************************************************************/
+
+/* Base
+=============================================================================*/
+#body-in .container-wrapper .footer-area {
+	padding:30px 0 0;
+}
+@media screen and (max-width: 679px){
+#body-in .container-wrapper .footer-area {
+	padding:15px 0 0;
+}
+}
+
+/* Sig
+=============================================================================*/
+#body-in .container-wrapper .footer-area .sig-area {
+	margin:0 auto;
+}
+@media screen and (max-width: 679px){
+#body-in .container-wrapper .footer-area .sig-wrapper {
+	padding:0 10px;
+}
+}
+
+
+/* Copy
+=============================================================================*/
+
+#body-in .container-wrapper .footer-area .copy-area {
+	margin:0 auto;
+}
+@media screen and (max-width: 679px){
+#body-in .container-wrapper .footer-area .copy-area {
+	padding:0 10px;
+}
+}

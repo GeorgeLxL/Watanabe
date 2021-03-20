@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62">
+  <g id="Group_118" data-name="Group 118" transform="translate(-333.5 -4664.5)">
+    <g id="Icon_feather-target" data-name="Icon feather-target" transform="translate(341.2 4672)">
+      <path id="Path_2599" data-name="Path 2599" d="M43.391,23.2A20.2,20.2,0,1,1,23.2,3,20.2,20.2,0,0,1,43.391,23.2Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_2600" data-name="Path 2600" d="M33.234,21.117A12.117,12.117,0,1,1,21.117,9,12.117,12.117,0,0,1,33.234,21.117Z" transform="translate(2.078 2.078)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_2601" data-name="Path 2601" d="M23.078,19.039A4.039,4.039,0,1,1,19.039,15,4.039,4.039,0,0,1,23.078,19.039Z" transform="translate(4.156 4.156)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g id="Group_110" data-name="Group 110" transform="translate(8 -36)">
+      <line id="Line_38" data-name="Line 38" y2="11" transform="translate(356.5 4700.5)" fill="none" stroke="#000" stroke-width="2"/>
+      <line id="Line_39" data-name="Line 39" y2="11" transform="translate(356.5 4751.5)" fill="none" stroke="#000" stroke-width="2"/>
+    </g>
+    <g id="Group_111" data-name="Group 111" transform="translate(5096 4339) rotate(90)">
+      <line id="Line_38-2" data-name="Line 38" y2="11" transform="translate(356.5 4700.5)" fill="none" stroke="#000" stroke-width="2"/>
+      <line id="Line_39-2" data-name="Line 39" y2="11" transform="translate(356.5 4751.5)" fill="none" stroke="#000" stroke-width="2"/>
+    </g>
+    <g id="Group_112" data-name="Group 112" transform="translate(11 -34)">
+      <line id="Line_41" data-name="Line 41" y2="9" transform="translate(328.5 4703.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_42" data-name="Line 42" y2="9" transform="translate(337.5 4703.5) rotate(90)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <g id="Group_115" data-name="Group 115" transform="translate(339.5 4711.5)">
+      <line id="Line_41-2" data-name="Line 41" y1="9" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_42-2" data-name="Line 42" y1="9" transform="translate(0 9) rotate(-90)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <g id="Group_113" data-name="Group 113" transform="translate(379.5 4669.5)">
+      <line id="Line_41-3" data-name="Line 41" y2="9" transform="translate(9)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_42-3" data-name="Line 42" y1="9" transform="translate(9) rotate(90)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <g id="Group_114" data-name="Group 114" transform="translate(379.5 4711.5)">
+      <line id="Line_41-4" data-name="Line 41" y1="9" transform="translate(9)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_42-4" data-name="Line 42" y2="9" transform="translate(0 9) rotate(-90)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

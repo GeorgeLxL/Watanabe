@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+}
+.login-form {
+    padding: 20px;
+    display: inline-block;
+    border: 1px solid #666666;
+    box-shadow: 0 3px 6px #333333;
+    margin-top: 10vw;
+    text-align: left;
+}
+.login-form div * {
+    margin-bottom: 10px;
+}
+label {
+    color: #2548b6;
+}
+input {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid lightblue;
+    font-size: 16px;
+}
+.button {
+    text-align: center;
+}
+button {
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    border: 2px solid transparent;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+button:hover {
+    border: 2px solid darkblue;
+    color: darkblue;
+    background-color: white;
+}
+button:focus {
+    outline: none;
+}
